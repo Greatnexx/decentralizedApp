@@ -1,0 +1,42 @@
+#cal{
+    width: 300px;
+    margin: 100px auto;
+    background-color: darkblue;
+    padding: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    border-radius: 20px;
+    
+}
+
+#cal h2{
+    background-color: black;
+    color: beige;
+    margin: 0;
+    padding: 13px 20px 0px 20px;
+    height: 53px;
+    font-size: 35px;
+    grid-column: 1/5;
+    grid-row: 1/2;
+    border-radius: 10px;
+}
+
+#cal h4{
+
+    text-align: center;
+    background-color: azure;
+    margin: 0;
+    border-radius: 10px;
+    height: 45px;
+    font-size: 22px;
+    padding-top: 15px;
+    transition: 0.3s;
+    
+}
+
+#cal h4:hover{
+    cursor: pointer;
+    background-color: red;
+    box-shadow: 0px 0px 20px;
+}
